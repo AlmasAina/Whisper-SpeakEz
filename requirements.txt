@@ -5,7 +5,6 @@ torchaudio
 torchvision
 numpy
 scipy
-sounddevice
 gtts
 pydub
 ffmpeg
