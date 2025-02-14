@@ -11,7 +11,6 @@ import pydub
 # Load the Whisper model
 @st.cache_resource
 def load_model():
-    import whisper
     return whisper.load_model("base")
 
 model = load_model()
